@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bill Divider App</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+	<h2>Each person should pay " <span id="totalAmount">AMOUNT</span>"</h2>
+	 	<form>
+	 		<div class="container">
+		 		<div class="box1">
+			    	<label>Total :</label>
+			    	<input type="number" id="total" placeholder="Enter total amount">
+		 		</div>
+		 		<div class="box2">
+				    <label id="person">Total person :</label>
+				    <input type="" id="people" placeholder="Enter total number of people">
+		 		</div>
+		 		<div class="box3">
+			    	<label><a id="addTip">Add a tips</a></label>
+			    <div id="tipInput">
+			      	<input type="" value="" id="percentage" placeholder="Enter tip in percentage">
+			      	<input type="" value="" id="customTip" placeholder="Enter how much amount">
+			    </div>
+			    </div>
+	 		</div>
+		    <div class="buttonSpace">
+		      <button id="calc">Split Bill</button>
+		      <button id="resetBtn">Reset</button>
+		    </div>
+	  	</form>
+	</div>
+	<script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
